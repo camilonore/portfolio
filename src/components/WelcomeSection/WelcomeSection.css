@@ -49,3 +49,11 @@
     text-shadow: -2px 2px 0px #1d3557;
   }
 }
+@media (max-width: 768px) {
+  .text_pop {
+    font-size: 25px;
+  }
+  .text_pop > span {
+    font-size: 40px;
+  }
+}

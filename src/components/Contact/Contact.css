@@ -59,3 +59,9 @@
     background-color: #457b9d;
   }
 }
+@media (max-width: 768px) {
+  .contact-form > input,
+  .contact-form > textarea {
+    width: 55vw;
+  }
+}

@@ -16,8 +16,8 @@ const ProjectCard = ({ imgUrl, title, description, repository, website }) => {
       <aside className='project-description'>
         <h3>{title}</h3>
         <p>{description}</p>
-        <Icon toUrl={website} src={'./public/safari.svg'} alt={'Website'} />
-        <Icon toUrl={repository} src={'./public/github.svg'} alt={'GitHub'} />
+        <Icon toUrl={website} src={'/safari.svg'} alt={'Website'} />
+        <Icon toUrl={repository} src={'/github.svg'} alt={'GitHub'} />
       </aside>
     </section>
   );
