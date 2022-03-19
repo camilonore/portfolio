@@ -1,6 +1,6 @@
 export default projects = [
   {
-    imgUrl: './public/test.png',
+    imgUrl: '/test.png',
     title: 'Next Calendar',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, voluptatum, fuga iste consectetur molestias qui',
@@ -8,7 +8,7 @@ export default projects = [
     website: 'https://google.com',
   },
   {
-    imgUrl: './public/test.png',
+    imgUrl: '/test.png',
     title: 'Next Calendar',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, voluptatum, fuga iste consectetur molestias qui',
@@ -16,7 +16,7 @@ export default projects = [
     website: 'https://google.com',
   },
   {
-    imgUrl: './public/test.png',
+    imgUrl: '/test.png',
     title: 'Next Calendar',
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, voluptatum, fuga iste consectetur molestias qui',
