@@ -1,6 +1,6 @@
 .card {
   height: 40vh;
-  width: 70vw;
+  width: 70%;
   background-color: #1d3557;
   border-radius: 15px;
   overflow: clip;
@@ -9,9 +9,10 @@
   gap: 15px;
 }
 .card > a > img {
-  width: 100%;
+  max-width: 90%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px 0 0 15px;
   transition: transform 0.2s ease-in, border-radius 0.2s ease-in;
 }
 .web-icons {
@@ -45,7 +46,7 @@
 @media (min-width: 768px) {
   .card > a > img:hover {
     object-fit: cover;
-    width: 35vw;
+    width: 26vw;
     height: 40vh;
     position: absolute;
     transform: scale(1.04);

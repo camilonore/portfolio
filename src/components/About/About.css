@@ -1,0 +1,16 @@
+.about-section {
+  display: grid;
+  place-content: center;
+  padding: 15px;
+  border-top: 1px solid #457b9d;
+  border-bottom: 1px solid #457b9d;
+}
+.about-section > h3 {
+  font-size: 22px;
+  color: #f1faee;
+}
+.about-section > p {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 50ch;
+  line-height: 25px;
+}

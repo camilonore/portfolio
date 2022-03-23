@@ -15,6 +15,7 @@
 .contact-form {
   display: flex;
   height: 100%;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -26,7 +27,7 @@
 }
 .contact-form > input,
 .contact-form > textarea {
-  width: 40vw;
+  width: 40%;
   font-size: 16px;
   color: #f1faee;
   padding: 10px;
@@ -63,5 +64,8 @@
   .contact-form > input,
   .contact-form > textarea {
     width: 55vw;
+  }
+  .contact > p {
+    max-width: 18ch;
   }
 }
