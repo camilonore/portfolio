@@ -1,26 +1,30 @@
 export default skills = [
   {
-    iconUrl: '/javascript.png',
-    text: 'JavaScript',
+    iconUrl: '/react.png',
+    text: 'React',
+  },
+  {
+    iconUrl: '/next.png',
+    text: 'Nextjs',
   },
   {
     iconUrl: '/javascript.png',
     text: 'JavaScript',
   },
   {
-    iconUrl: '/javascript.png',
-    text: 'JavaScript',
+    iconUrl: '/node.png',
+    text: 'Nodejs',
   },
   {
-    iconUrl: '/javascript.png',
-    text: 'JavaScript',
+    iconUrl: '/mongodb.png',
+    text: 'MongoDB',
   },
   {
-    iconUrl: '/javascript.png',
-    text: 'JavaScript',
+    iconUrl: '/html.png',
+    text: 'HTML',
   },
   {
-    iconUrl: '/javascript.png',
-    text: 'JavaScript',
+    iconUrl: '/css.png',
+    text: 'CSS',
   },
 ];

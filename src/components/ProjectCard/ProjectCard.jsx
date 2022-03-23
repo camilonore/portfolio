@@ -11,7 +11,7 @@ const ProjectCard = ({ imgUrl, title, description, repository, website }) => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <img src={imgUrl} alt={title} />
+        <img src={imgUrl} alt={title} loading='lazy' />
       </a>
       <aside className='project-description'>
         <h3>{title}</h3>
