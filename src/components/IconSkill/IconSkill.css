@@ -1,0 +1,16 @@
+.skill-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-icon > img {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 50px;
+  max-height: 50px;
+  transition: transform 100ms ease-in;
+}
+.skill-icon > img:hover {
+  transform: scale(1.1);
+}
