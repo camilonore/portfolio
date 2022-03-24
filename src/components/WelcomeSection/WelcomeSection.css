@@ -1,6 +1,6 @@
 .first-section {
   display: grid;
-  height: 89vh;
+  height: 100vh;
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -96,13 +96,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 0;
-    height: fit-content;
+    padding-top: 5vh;
   }
   .content-text {
     order: 1;
   }
   .first-section > img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
 }

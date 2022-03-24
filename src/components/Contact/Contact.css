@@ -68,4 +68,7 @@
   .contact > p {
     max-width: 18ch;
   }
+  .contact {
+    padding-top: 5vh;
+  }
 }
