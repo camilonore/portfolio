@@ -22,13 +22,9 @@
 .project-description {
   padding: 5px;
 }
-.project-description > h3 {
-  color: #f1faee;
-}
 .project-description > p {
   line-break: auto;
   max-width: 45ch;
-  color: rgba(255, 255, 255, 0.6);
 }
 .project-description > a {
   margin: 0 8px;

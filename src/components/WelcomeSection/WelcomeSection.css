@@ -2,20 +2,23 @@
   display: grid;
   height: 100vh;
   justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 100px;
 }
-.first-section > img {
-  border-radius: 20px;
-  max-height: 300px;
-  width: 300px;
-  object-fit: cover;
+.first-section-main {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
 }
-.content-text {
+.first-section-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.profile-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  object-fit: cover;
 }
 .curriculum-button {
   cursor: pointer;
@@ -39,19 +42,19 @@
     background-color: #457b9d;
   }
 }
-.text_pop {
+.text-pop {
   display: flex;
   font-size: 40px;
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
 }
-.text_pop span {
+.text-pop span {
   color: #f1faee;
   font-size: 55px;
   animation: in 0.2s forwards;
   display: inline-block;
 }
-.text_pop span:hover {
+.text-pop span:hover {
   animation: out 0.3s forwards;
   display: inline-block;
 }
@@ -86,22 +89,19 @@
   }
 }
 @media (max-width: 768px) {
-  .text_pop {
+  .text-pop {
     font-size: 25px;
   }
-  .text_pop > span {
+  .text-pop > span {
     font-size: 40px;
   }
-  .first-section {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0;
-    padding-top: 5vh;
+  .first-section-main {
+    flex-direction: column;
   }
-  .content-text {
+  .first-section-text {
     order: 1;
   }
-  .first-section > img {
+  .profile-image {
     height: 200px;
     width: 200px;
   }

@@ -1,6 +1,6 @@
-import React from 'react';
 import Icon from '../Icon/Icon';
 import './ProjectCard.css';
+import styles from '../../styles/styles.module.css';
 
 const ProjectCard = ({ imgUrl, title, description, repository, website }) => {
   return (
@@ -14,8 +14,8 @@ const ProjectCard = ({ imgUrl, title, description, repository, website }) => {
         <img src={imgUrl} alt={title} loading='lazy' />
       </a>
       <aside className='project-description'>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3 className={styles.h3}>{title}</h3>
+        <p className={styles.description}>{description}</p>
         <Icon toUrl={website} src={'/safari.svg'} alt={'Website'} />
         <Icon toUrl={repository} src={'/github.svg'} alt={'GitHub'} />
       </aside>

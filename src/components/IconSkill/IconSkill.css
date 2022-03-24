@@ -17,3 +17,9 @@
 .skill-icon > p {
   font-weight: 500;
 }
+@media (max-width: 768px) {
+  .skill-icon > img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
