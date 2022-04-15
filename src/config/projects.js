@@ -1,5 +1,12 @@
 export default projects = [
   {
+    imgUrl: '/tmyp.jpg',
+    title: 'Tell Me Your Problem',
+    description: 'Application to make posts to look for a developer who can solve your problem, made with Nextjs, NextAuth, MongoDB and CSS',
+    repository: 'https://github.com/camilonore/tell-me-your-problem',
+    website: 'https://tell-me-your-problem.vercel.app/',
+  },
+  {
     imgUrl: '/nextCalendar.jpg',
     title: 'Next Calendar',
     description: 'Calendar made in NextJs, MongoDb, and pure css',
