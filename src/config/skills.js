@@ -20,6 +20,10 @@ export default skills = [
     text: 'MongoDB',
   },
   {
+    iconUrl: '/git.png',
+    text: 'Git'
+  },
+  {
     iconUrl: '/html.png',
     text: 'HTML',
   },
