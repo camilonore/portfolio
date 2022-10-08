@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v2          
       - name: Install, build, and upload your site
         uses: withastro/action@v0
+        with:
+          path: /.
         
   deploy:
     needs: build
@@ -29,6 +31,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: Deploy success
-        if: steps.deployment.outputs.page_url
-        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
