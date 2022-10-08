@@ -1,34 +1,34 @@
 export default skills = [
   {
-    iconUrl: '/Portfolio/react.png',
+    iconUrl: '/portfolio/react.png',
     text: 'React',
   },
   {
-    iconUrl: '/Portfolio/next.png',
+    iconUrl: '/portfolio/next.png',
     text: 'Nextjs',
   },
   {
-    iconUrl: '/Portfolio/javascript.png',
+    iconUrl: '/portfolio/javascript.png',
     text: 'JavaScript',
   },
   {
-    iconUrl: '/Portfolio/node.png',
+    iconUrl: '/portfolio/node.png',
     text: 'Nodejs',
   },
   {
-    iconUrl: '/Portfolio/mongodb.png',
+    iconUrl: '/portfolio/mongodb.png',
     text: 'MongoDB',
   },
   {
-    iconUrl: '/Portfolio/git.png',
+    iconUrl: '/portfolio/git.png',
     text: 'Git'
   },
   {
-    iconUrl: '/Portfolio/html.png',
+    iconUrl: '/portfolio/html.png',
     text: 'HTML',
   },
   {
-    iconUrl: '/Portfolio/css.png',
+    iconUrl: '/portfolio/css.png',
     text: 'CSS',
   },
 ];
