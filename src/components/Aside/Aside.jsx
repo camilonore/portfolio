@@ -7,17 +7,17 @@ const Aside = () => {
     <aside className='aside-links'>
       <Icon
         toUrl={'https://github.com/camilonore'}
-        src={'./github.svg'}
+        src={'/github.svg'}
         alt={'GitHub'}
       />
       <Icon
         toUrl={'https://www.linkedin.com/in/camilo-nore/'}
-        src={'./linkedin.svg'}
+        src={'/linkedin.svg'}
         alt={'Linkedin'}
       />
       <Icon
         toUrl={'mailto:caminore22@gmail.com'}
-        src={'./mail.svg'}
+        src={'/mail.svg'}
         alt={'Gmail'}
       />
     </aside>
