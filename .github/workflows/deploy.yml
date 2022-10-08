@@ -32,3 +32,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Deploy success
+        if: steps.deployment.outputs.page_url
+        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
