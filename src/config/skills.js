@@ -31,4 +31,8 @@ export default skills = [
     iconUrl: '/css.png',
     text: 'CSS',
   },
+  {
+    iconUrl: '/flutter.png',
+    text: 'Flutter',
+  },
 ];
