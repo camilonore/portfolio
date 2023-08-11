@@ -1,5 +1,5 @@
-import React from 'react';
-import './WelcomeSection.css';
+import React from 'react'
+import './WelcomeSection.css'
 
 const WelcomeSection = () => {
   return (
@@ -30,10 +30,14 @@ const WelcomeSection = () => {
             View CV
           </a>
         </div>
-        <img className='profile-image' src='/profilePic.jpg' alt='' />
+        <img
+          className='profile-image'
+          src='/profilePic.webp'
+          alt='An image of Camilo Nore'
+        />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default WelcomeSection;
+export default WelcomeSection
