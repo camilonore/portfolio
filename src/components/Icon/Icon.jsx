@@ -1,12 +1,12 @@
-import React from 'react';
-import './Icon.css';
+import React from 'react'
+import './Icon.css'
 
 const Icon = ({ toUrl, src, alt }) => {
   return (
     <a href={toUrl} target='_blank' rel='noopener noreferrer'>
-      <img title={alt} className='icon' src={src} alt={alt} />
+      <img title={alt} className='icon' src={src} alt={alt} loading='lazy' />
     </a>
-  );
-};
+  )
+}
 
-export default Icon;
+export default Icon

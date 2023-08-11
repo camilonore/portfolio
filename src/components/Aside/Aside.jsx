@@ -1,6 +1,6 @@
-import React from 'react';
-import Icon from '../Icon/Icon';
-import './Aside.css';
+import React from 'react'
+import Icon from '../Icon/Icon'
+import './Aside.css'
 
 const Aside = () => {
   return (
@@ -21,7 +21,7 @@ const Aside = () => {
         alt={'Gmail'}
       />
     </aside>
-  );
-};
+  )
+}
 
-export default Aside;
+export default Aside
